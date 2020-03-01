@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BabyCare</string>
+    <string-array name="tack_care">
+        <item>Select Below</item>
+        <item>Nurses</item>
+        <item>Nanies</item>
+
+    </string-array>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+</resources>
