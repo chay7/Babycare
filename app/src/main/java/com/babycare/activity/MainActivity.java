@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         getSupportActionBar().setTitle("Home");
 
         btn_admnlogin=(Button)findViewById(R.id.btn_admnlogin);

@@ -86,7 +86,6 @@ public class NanniesActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
 }
 
 
