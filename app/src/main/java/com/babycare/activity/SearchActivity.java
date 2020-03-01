@@ -21,11 +21,9 @@ import com.babycare.Utils;
 import com.babycare.adapter.NanniesAdapter;
 import com.babycare.adapter.SearchAdapter;
 import com.babycare.models.NanniesPojo;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

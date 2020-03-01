@@ -13,6 +13,7 @@ public class RetrofitInstance {
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
+
         return retrofit;
     }
 }

@@ -35,10 +35,8 @@ public class NanniesActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nannies);
-
         sharedPreferences = getSharedPreferences(Utils.SHREF, Context.MODE_PRIVATE);
         uname = sharedPreferences.getString("user_name", "");
-
         getSupportActionBar().setTitle("Nanies");
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -50,7 +48,6 @@ public class NanniesActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(NanniesActivity.this);
         progressDialog.setMessage("Loading....");
         progressDialog.show();
-
         EndPointUrl service = RetrofitInstance.getRetrofitInstance().create(EndPointUrl.class);
         Call<List<NanniesPojo>> call = service.getNanies();
         call.enqueue(new Callback<List<NanniesPojo>>() {
@@ -89,7 +86,6 @@ public class NanniesActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
 }
 
 
