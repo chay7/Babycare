@@ -184,7 +184,6 @@ public class AdminEditProfileActivity extends AppCompatActivity {
             public void onFailure(Call<ResponseData> call, Throwable t) {
                 progressDialog.dismiss();
                 Toast.makeText(AdminEditProfileActivity.this, "" + t.getMessage(), Toast.LENGTH_SHORT).show();
-
             }
         });
     }

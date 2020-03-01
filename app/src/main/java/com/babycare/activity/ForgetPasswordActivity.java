@@ -47,7 +47,6 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                 submitdata();
             }
         });
-
     }
     public  void submitdata()
     {

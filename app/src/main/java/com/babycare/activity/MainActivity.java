@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         btn_admnlogin.setTypeface(fontstyle);
         btn_userlogin.setTypeface(fontstyle);
 
-
         btn_admnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
