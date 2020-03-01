@@ -20,14 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Home");
 
-
         btn_admnlogin=(Button)findViewById(R.id.btn_admnlogin);
         btn_userlogin=(Button)findViewById(R.id.btn_userlogin);
 
         Typeface fontstyle=Typeface.createFromAsset(getApplicationContext().getAssets(),"fonts/Lato-Medium.ttf");
         btn_admnlogin.setTypeface(fontstyle);
         btn_userlogin.setTypeface(fontstyle);
-
         btn_admnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,16 +33,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         btn_userlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
-
             }
         });
-
-
     }
 }
