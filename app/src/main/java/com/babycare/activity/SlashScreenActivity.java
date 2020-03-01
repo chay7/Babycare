@@ -31,7 +31,6 @@ public class SlashScreenActivity extends AppCompatActivity {
                     Intent intentg= new Intent(SlashScreenActivity.this, UserDashBoardActivity.class);
                     startActivity(intentg);
                     finish();
-
                 }
             }
         };

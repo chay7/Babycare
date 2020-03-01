@@ -212,5 +212,4 @@ public class RegistrationActivity1 extends AppCompatActivity implements EasyPerm
             }
         });
     }
-
 }

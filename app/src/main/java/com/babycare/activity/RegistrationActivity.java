@@ -40,6 +40,7 @@ public class RegistrationActivity extends AppCompatActivity {
         tv4=(TextView)findViewById(R.id.tv4);
         tv5=(TextView)findViewById(R.id.tv5);
         tv4_EmailID=(TextView)findViewById(R.id.tv4_EmailID);
+
         btn_reg = (Button) findViewById(R.id.btn_reg);
         et_name = (EditText) findViewById(R.id.et_name);
         et_phno = (EditText) findViewById(R.id.et_phno);

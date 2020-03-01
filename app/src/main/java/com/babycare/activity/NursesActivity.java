@@ -40,6 +40,7 @@ public class NursesActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences(Utils.SHREF, Context.MODE_PRIVATE);
         uname = sharedPreferences.getString("user_name", "");
+
         getSupportActionBar().setTitle("Nurse");
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

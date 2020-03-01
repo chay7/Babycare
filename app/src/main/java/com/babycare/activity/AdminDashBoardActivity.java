@@ -46,6 +46,7 @@ public class AdminDashBoardActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(AdminDashBoardActivity.this,AdminLoginActivity.class);
                 startActivity(intent);
+
             }
         });
     }

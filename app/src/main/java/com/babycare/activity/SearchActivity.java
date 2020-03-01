@@ -12,10 +12,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.babycare.R;
 import com.babycare.Utils;
 import com.babycare.adapter.NanniesAdapter;
@@ -69,7 +67,6 @@ public class SearchActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
             }
         });
-
 
 
         a1= new ArrayList<>();

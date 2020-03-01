@@ -84,6 +84,7 @@ public class LoginActivity extends AppCompatActivity {
         tv_signup.setTypeface(basicdt);
         et_PWD.setTypeface(basicdt);
         btn_add.setTypeface(basicdt);
+
     }
     private void submitData(){
         String str=et_USERNAME.getText().toString();

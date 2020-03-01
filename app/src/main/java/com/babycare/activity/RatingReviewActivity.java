@@ -42,6 +42,7 @@ public class RatingReviewActivity  extends AppCompatActivity {
     private void submitData(){
         String review=et_Review.getText().toString();
         String rating=String.valueOf(ratingBar.getRating());;
+
         progressDialog = new ProgressDialog(RatingReviewActivity.this);
         progressDialog.setMessage("Loading....");
         progressDialog.show();

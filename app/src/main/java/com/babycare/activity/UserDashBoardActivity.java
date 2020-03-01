@@ -51,7 +51,6 @@ public class UserDashBoardActivity extends AppCompatActivity {
             }
         });
 
-
         cd_myprofile=(CardView)findViewById(R.id.cd_myprofile);
         cd_myprofile.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -39,7 +39,6 @@ public class ViewReviewRatingActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences(Utils.SHREF, Context.MODE_PRIVATE);
         uname = sharedPreferences.getString("user_name", "");
-
         getSupportActionBar().setTitle("Nanies");
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -47,6 +47,7 @@ public class AdminRegistrationActivity extends AppCompatActivity {
         tv_nani_nur=(TextView)findViewById(R.id.tv_nani_nur);
 
 
+
         btn_reg = (Button) findViewById(R.id.btn_reg);
         et_name = (EditText) findViewById(R.id.et_name);
         et_password=(EditText)findViewById(R.id.et_password);
