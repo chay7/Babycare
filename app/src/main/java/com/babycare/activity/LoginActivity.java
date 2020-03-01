@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences(Utils.SHREF, Context.MODE_PRIVATE);
 
-
         tv_username=(TextView)findViewById(R.id.tv_username);
         tv_password=(TextView)findViewById(R.id.tv_password);
         tv_forgetpwd=(TextView)findViewById(R.id.tv_forgetpwd);
